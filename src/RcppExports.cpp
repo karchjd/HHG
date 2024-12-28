@@ -66,7 +66,7 @@ BEGIN_RCPP
 END_RCPP
 }
 
-RcppExport SEXP HHG_R_C(void *, void *, void *, void *, void *, void *, void *, void *, void *, void *, void *, void *, void *, void *, void *, void *);
+RcppExport SEXP HHG_R_C(SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP);
 
 static const R_CallMethodDef CallEntries[] = {
     {"_HHG_ComputeECDF", (DL_FUNC) &_HHG_ComputeECDF, 3},
